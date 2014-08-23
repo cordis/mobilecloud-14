@@ -70,7 +70,7 @@ import retrofit.mime.TypedFile;
 
 public class AutoGradingTest {
 
-	private static final String SERVER = "http://127.0.0.1:8082";
+	private static final String SERVER = "http://localhost:8080";
 
 	private File testVideoData = new File(
 			"src/test/resources/test.mp4");
